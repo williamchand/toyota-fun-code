@@ -8,7 +8,7 @@ function Appheader() {
   return (
     <div className="header">
       <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="/home">Navbar</Navbar.Brand>
+        <LinkContainer to="/home"><Navbar.Brand>Navbar</Navbar.Brand></LinkContainer>
         <Nav className="mr-auto" activeKey={history.location.pathname}>
           <LinkContainer to="/home"><Nav.Link href="/home">Home</Nav.Link></LinkContainer>
           <LinkContainer to="/search"><Nav.Link href="/search">Search</Nav.Link></LinkContainer>
