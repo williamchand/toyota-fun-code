@@ -22,6 +22,7 @@ function DateMusicView() {
       <Card.Body>
         <div style={{display: 'flex'}}>
           <Clock />
+          <Forecast latitude={userlat} longitude={userlng} name='Jakarta' />
         </div>
       </Card.Body>
     </Card>
