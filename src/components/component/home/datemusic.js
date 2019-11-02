@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Clock from 'react-digital-clock';
 import {Card} from 'react-bootstrap';
 import ReactWeather from 'react-open-weather';
+import Forecast from 'react-forecast';
 //Optional include of the default css styles 
 import 'react-open-weather/lib/css/ReactWeather.css';
 function DateMusicView() {
