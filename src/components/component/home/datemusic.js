@@ -24,7 +24,7 @@ function DateMusicView() {
         <div style={{display: 'flex'}}>
           <Clock />
           <ReactAudioPlayer
-            src="my_audio_file.ogg"
+            src="http://streaming.tdiradio.com:8000/house.mp3"
             autoPlay
             controls
           />,

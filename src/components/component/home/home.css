@@ -6,3 +6,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.react-audio-player {
+  margin-left: auto;
+}
