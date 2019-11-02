@@ -5,6 +5,8 @@ import ReactWeather from 'react-open-weather';
 // import Forecast from 'react-forecast';
 //Optional include of the default css styles 
 import 'react-open-weather/lib/css/ReactWeather.css';
+import WeatherWidget from 'weather-widget-react';
+ 
 function DateMusicView() {
   const [userlat, setUserLat] = useState(43.855472);
   const [userlng, setUserLng] = useState(18.410574);
@@ -23,6 +25,13 @@ function DateMusicView() {
       <Card.Body>
         <div style={{display: 'flex'}}>
           <Clock />
+          <WeatherWidget
+            apiKey='7cc0a3060e58f17a24e70b46ad9ed851'
+            position='top-left'
+            location='Jakarta'
+            units='metric'
+            lang='eng'
+          />,
           {/* <Forecast latitude={userlat} longitude={userlng} name='Jakarta' /> */}
         </div>
       </Card.Body>
