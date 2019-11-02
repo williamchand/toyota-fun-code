@@ -45,7 +45,7 @@ function GoogleMapsView() {
     [setLat, setLng]
   );
   return (
-    <div style={{ display: "flex", height: "calc(100vh - 50px)" }}>
+    <div style={{ display: "flex", height: "calc(100vh - 70px)" }}>
       {/* Google maps has whitelisted codesandbox with overlay, so there is enough to pass an empty string, but for your own app, you need to provide your own api key. Please do not forget to restrict it for your own domain name. */}
       <LoadScript googleMapsApiKey={"AIzaSyC2fUo6YVS3ZBtrOg1KOWB1VkxvCklIavA"}>
         <GoogleMap
