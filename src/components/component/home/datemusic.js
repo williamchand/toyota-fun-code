@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Clock from 'react-digital-clock';
 import {Card} from 'react-bootstrap';
 import ReactWeather from 'react-open-weather';
-import Forecast from 'react-forecast';
+// import Forecast from 'react-forecast';
 //Optional include of the default css styles 
 import 'react-open-weather/lib/css/ReactWeather.css';
 function DateMusicView() {
@@ -23,7 +23,7 @@ function DateMusicView() {
       <Card.Body>
         <div style={{display: 'flex'}}>
           <Clock />
-          <Forecast latitude={userlat} longitude={userlng} name='Jakarta' />
+          {/* <Forecast latitude={userlat} longitude={userlng} name='Jakarta' /> */}
         </div>
       </Card.Body>
     </Card>
