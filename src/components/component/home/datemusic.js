@@ -36,7 +36,7 @@ function DateMusicView() {
             </Card>
           </div>
           <ReactAudioPlayer
-            src="http://streaming.tdiradio.com:8000/house.mp3"
+            src="https://streaming.tdiradio.com:8000/house.mp3"
             autoPlay
             controls
           />,
